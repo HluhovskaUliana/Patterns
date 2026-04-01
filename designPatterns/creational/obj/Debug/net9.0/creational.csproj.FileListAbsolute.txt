@@ -1,0 +1,15 @@
+D:\Study\Patterns\designPatterns\creational\bin\Debug\net9.0\creational.exe
+D:\Study\Patterns\designPatterns\creational\bin\Debug\net9.0\creational.deps.json
+D:\Study\Patterns\designPatterns\creational\bin\Debug\net9.0\creational.runtimeconfig.json
+D:\Study\Patterns\designPatterns\creational\bin\Debug\net9.0\creational.dll
+D:\Study\Patterns\designPatterns\creational\bin\Debug\net9.0\creational.pdb
+D:\Study\Patterns\designPatterns\creational\obj\Debug\net9.0\creational.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Patterns\designPatterns\creational\obj\Debug\net9.0\creational.AssemblyInfoInputs.cache
+D:\Study\Patterns\designPatterns\creational\obj\Debug\net9.0\creational.AssemblyInfo.cs
+D:\Study\Patterns\designPatterns\creational\obj\Debug\net9.0\creational.csproj.CoreCompileInputs.cache
+D:\Study\Patterns\designPatterns\creational\obj\Debug\net9.0\creational.sourcelink.json
+D:\Study\Patterns\designPatterns\creational\obj\Debug\net9.0\creational.dll
+D:\Study\Patterns\designPatterns\creational\obj\Debug\net9.0\refint\creational.dll
+D:\Study\Patterns\designPatterns\creational\obj\Debug\net9.0\creational.pdb
+D:\Study\Patterns\designPatterns\creational\obj\Debug\net9.0\creational.genruntimeconfig.cache
+D:\Study\Patterns\designPatterns\creational\obj\Debug\net9.0\ref\creational.dll
