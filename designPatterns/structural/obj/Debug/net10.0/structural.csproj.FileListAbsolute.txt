@@ -1,0 +1,15 @@
+D:\Study\Patterns\designPatterns\structural\bin\Debug\net10.0\structural.exe
+D:\Study\Patterns\designPatterns\structural\bin\Debug\net10.0\structural.deps.json
+D:\Study\Patterns\designPatterns\structural\bin\Debug\net10.0\structural.runtimeconfig.json
+D:\Study\Patterns\designPatterns\structural\bin\Debug\net10.0\structural.dll
+D:\Study\Patterns\designPatterns\structural\bin\Debug\net10.0\structural.pdb
+D:\Study\Patterns\designPatterns\structural\obj\Debug\net10.0\structural.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Patterns\designPatterns\structural\obj\Debug\net10.0\structural.AssemblyInfoInputs.cache
+D:\Study\Patterns\designPatterns\structural\obj\Debug\net10.0\structural.AssemblyInfo.cs
+D:\Study\Patterns\designPatterns\structural\obj\Debug\net10.0\structural.csproj.CoreCompileInputs.cache
+D:\Study\Patterns\designPatterns\structural\obj\Debug\net10.0\structural.sourcelink.json
+D:\Study\Patterns\designPatterns\structural\obj\Debug\net10.0\structural.dll
+D:\Study\Patterns\designPatterns\structural\obj\Debug\net10.0\refint\structural.dll
+D:\Study\Patterns\designPatterns\structural\obj\Debug\net10.0\structural.pdb
+D:\Study\Patterns\designPatterns\structural\obj\Debug\net10.0\structural.genruntimeconfig.cache
+D:\Study\Patterns\designPatterns\structural\obj\Debug\net10.0\ref\structural.dll
