@@ -6,6 +6,7 @@ using structural.composite;
 using structural.decorator;
 using structural.facade;
 using structural.flyweight;
+using structural.proxy;
 
 class Program 
 {
@@ -73,6 +74,7 @@ class Program
         MarketFacade market = new MarketFacade(inventory2, pricing, wallet);
 
         market.SellAllProducts();
+        
         Console.WriteLine("---------- Flyweight pattern ---------");
         CropFactory factory = new CropFactory();
 
@@ -86,5 +88,12 @@ class Program
         crop1.ShowInfo();
         crop2.ShowInfo();
         crop3.ShowInfo();
+        
+        Console.WriteLine("---------- Proxy pattern ---------");
+        IAnimal cow1 = new AnimalProxy(new Cow1(), fed: true, happy: true);
+        cow1.GiveProduct(); 
+
+        IAnimal chicken1 = new AnimalProxy(new Chicken1(), fed: false, happy: true);
+        chicken1.GiveProduct(); 
     }
 }
