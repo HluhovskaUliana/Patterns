@@ -14,7 +14,7 @@ class Program
         InventoryManager backpack = InventoryManager.Instance; 
         InventoryManager backpack2 = InventoryManager.Instance; 
         
-        Console.WriteLine(object.ReferenceEquals(backpack, backpack2)); // це один і той самий рюкзак, повторне створення неможливе
+        Console.WriteLine(object.ReferenceEquals(backpack, backpack2)); // це один і той самий рюкзак
         
         Console.WriteLine("---------- Factory ---------");
         var factory = new SeedFactory();
