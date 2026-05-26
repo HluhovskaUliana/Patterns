@@ -1,0 +1,15 @@
+D:\Study\Patterns\Lab4Lambda\bin\Debug\net10.0\Lab4Lambda.exe
+D:\Study\Patterns\Lab4Lambda\bin\Debug\net10.0\Lab4Lambda.deps.json
+D:\Study\Patterns\Lab4Lambda\bin\Debug\net10.0\Lab4Lambda.runtimeconfig.json
+D:\Study\Patterns\Lab4Lambda\bin\Debug\net10.0\Lab4Lambda.dll
+D:\Study\Patterns\Lab4Lambda\bin\Debug\net10.0\Lab4Lambda.pdb
+D:\Study\Patterns\Lab4Lambda\obj\Debug\net10.0\Lab4Lambda.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Patterns\Lab4Lambda\obj\Debug\net10.0\Lab4Lambda.AssemblyInfoInputs.cache
+D:\Study\Patterns\Lab4Lambda\obj\Debug\net10.0\Lab4Lambda.AssemblyInfo.cs
+D:\Study\Patterns\Lab4Lambda\obj\Debug\net10.0\Lab4Lambda.csproj.CoreCompileInputs.cache
+D:\Study\Patterns\Lab4Lambda\obj\Debug\net10.0\Lab4Lambda.sourcelink.json
+D:\Study\Patterns\Lab4Lambda\obj\Debug\net10.0\Lab4Lambda.dll
+D:\Study\Patterns\Lab4Lambda\obj\Debug\net10.0\refint\Lab4Lambda.dll
+D:\Study\Patterns\Lab4Lambda\obj\Debug\net10.0\Lab4Lambda.pdb
+D:\Study\Patterns\Lab4Lambda\obj\Debug\net10.0\Lab4Lambda.genruntimeconfig.cache
+D:\Study\Patterns\Lab4Lambda\obj\Debug\net10.0\ref\Lab4Lambda.dll
