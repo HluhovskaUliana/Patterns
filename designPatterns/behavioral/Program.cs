@@ -3,20 +3,25 @@ using behavioral.hainOfResponsibility;
 using behavioral.command;
 using behavioral.iterator;
 using behavioral.mediator;
+using behavioral.memento;
+using behavioral.observer;
+using behavioral.state;
+using behavioral.strategy;
+using behavioral.templateMethod;
+using behavioral.visitor;
 
 class Program
 {
     static void Main(string[] args)
     {
         Console.WriteLine("---------- Hain of Responsibility pattern ---------");
-        // Створюємо обробники
+        //обробники
         var bats = new BatEventHandler();
         var meteor = new MeteorEventHandler();
         var festival = new FestivalEventHandler();
         var witch = new WitchEventHandler();
         var defaultHandler = new DefaultEventHandler();
-
-        // Формуємо ланцюг
+        
         bats.SetNext(meteor);
         meteor.SetNext(festival);
         festival.SetNext(witch);
@@ -60,21 +65,105 @@ class Program
             Console.WriteLine("- " + iterator.Next());
         }
         
-        Console.WriteLine("---------- mediator pattern ---------");
+        Console.WriteLine("---------- Mediator pattern ---------");
         Farmer1 farmer1 = new Farmer1();
         Merchant merchant = new Merchant();
         Blacksmith blacksmith = new Blacksmith();
 
         TownMediator mediator = new TownMediator(farmer1, merchant, blacksmith);
 
-        // Фермер просить насіння
+        // фермер просить насіння
         farmer1.AskForSeeds();
 
         Console.WriteLine();
 
-        // Фермер просить ремонт інструменту
+        // фермер просить ремонт інструменту
         farmer1.AskForToolRepair();
 
-        Console.ReadLine();
+        Console.WriteLine("---------- Memento pattern ---------");
+        Farm farm = new Farm();
+        FarmCaretaker caretaker = new FarmCaretaker();
+        
+        farm.SetState("Planted tomatoes");
+        caretaker.Save(farm);
+
+        farm.SetState("Watered crops");
+        caretaker.Save(farm);
+
+        farm.SetState("Harvested pumpkins");
+
+        Console.WriteLine("\n--- Undo actions ---");
+        caretaker.Undo(farm); 
+        caretaker.Undo(farm);
+
+        Console.WriteLine("---------- Observer pattern ---------");
+        Farm1 farm1 = new Farm1();
+
+        Villager abigail = new Villager("Abigail");
+        Villager sebastian = new Villager("Sebastian");
+        Villager leah = new Villager("Leah");
+
+        // Спотерігачі
+        farm1.Attach(abigail);
+        farm1.Attach(sebastian);
+        farm1.Attach(leah);
+
+        // дії на фермі
+        farm1.Harvest();
+        farm1.WaterPlants();
+        
+        Console.WriteLine("---------- State pattern ---------");
+        // починається із стану посадки
+        Farm2 farm2 = new Farm2(new PlantingState());
+        
+        farm2.Request(); // посаджено
+        farm2.Request(); // росте
+        farm2.Request(); // виросло
+        farm2.Request(); // знову стан посадки
+        
+        Console.WriteLine("---------- Strategy pattern ---------");
+        Farmer2 farmer2 = new Farmer2(new ManualHarvestStrategy());
+        
+        farmer2.HarvestCrop("Tomatoes");
+        
+        farmer2.SetStrategy(new MachineHarvestStrategy());
+        farmer2.HarvestCrop("Corn");
+
+        farmer2.SetStrategy(new MagicalHarvestStrategy());
+        farmer2.HarvestCrop("Pumpkins");
+        
+        Console.WriteLine("---------- Template Method pattern ---------");
+        FarmActivity planting = new PlantingActivity();
+        planting.PerformActivity();
+
+        FarmActivity watering = new WateringActivity();
+        watering.PerformActivity();
+
+        FarmActivity harvesting = new HarvestingActivity();
+        harvesting.PerformActivity();
+        
+        Console.WriteLine("---------- Visitor pattern ---------");
+        // Створ елементи ферми
+        List<IFarmElement> farmElements = new List<IFarmElement>
+        {
+            new Cow(),
+            new Crop()
+        };
+
+        // Відвідувачі
+        IVisitor farmer4 = new FarmerVisitor();
+        IVisitor trader = new TraderVisitor();
+
+        Console.WriteLine("Farmer actions:");
+        foreach (var element in farmElements)
+        {
+            element.Accept(farmer4);
+        }
+
+        Console.WriteLine("\nTrader actions:");
+        foreach (var element in farmElements)
+        {
+            element.Accept(trader);
+        }
     }
 }
