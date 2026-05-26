@@ -25,7 +25,7 @@
         public override void Handle(NightContext context)
         {
             if (context.HasBats)
-                Console.WriteLine("Кажани атакують у шахті!");
+                Console.WriteLine("Bats attack in the mine!");
             else
                 next?.Handle(context);
         }
@@ -36,7 +36,7 @@
         public override void Handle(NightContext context)
         {
             if (context.HasMeteor)
-                Console.WriteLine("Метеорит впав на фермі!");
+                Console.WriteLine("A meteorite fell on a farm!");
             else
                 next?.Handle(context);
         }
@@ -47,7 +47,7 @@
         public override void Handle(NightContext context)
         {
             if (context.HasFestival)
-                Console.WriteLine("Відбувається нічний фестиваль!");
+                Console.WriteLine("There is a night festival!");
             else
                 next?.Handle(context);
         }
@@ -58,7 +58,7 @@
         public override void Handle(NightContext context)
         {
             if (context.HasWitch)
-                Console.WriteLine("Відьма зачарувала курник!");
+                Console.WriteLine("The witch charmed the chicken coop!");
             else
                 next?.Handle(context);
         }
@@ -68,7 +68,7 @@
     {
         public override void Handle(NightContext context)
         {
-            Console.WriteLine("Ніч минула спокійно.");
+            Console.WriteLine("The night passed peacefully.");
         }
     }
 }

@@ -12,7 +12,7 @@ namespace behavioral.command
     {
         public void Execute()
         {
-            Console.WriteLine("Рослини политі!");
+            Console.WriteLine("The plants are watered!");
         }
     }
 
@@ -20,7 +20,7 @@ namespace behavioral.command
     {
         public void Execute()
         {
-            Console.WriteLine("Урожай зібрано!");
+            Console.WriteLine("The harvest is harvested!");
         }
     }
 
@@ -28,7 +28,7 @@ namespace behavioral.command
     {
         public void Execute()
         {
-            Console.WriteLine("Тварини нагодовані!");
+            Console.WriteLine("Animals are fed!");
         }
     }
 

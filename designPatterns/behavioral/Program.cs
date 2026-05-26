@@ -1,6 +1,8 @@
 ﻿using System;
 using behavioral.hainOfResponsibility;
 using behavioral.command;
+using behavioral.iterator;
+using behavioral.mediator;
 
 class Program
 {
@@ -33,8 +35,7 @@ class Program
 
         Console.WriteLine("---------- Command pattern ---------");
         Farmer farmer = new Farmer();
-
-        // Виконання різних команд
+        
         farmer.SetCommand(new WaterPlantsCommand());
         farmer.ExecuteCommand();
 
@@ -44,6 +45,36 @@ class Program
         farmer.SetCommand(new FeedAnimalsCommand());
         farmer.ExecuteCommand();
         
+        Console.WriteLine("---------- Iterator pattern ---------");
+        HarvestCollection harvest = new HarvestCollection();
+        harvest.AddItem("tomato");
+        harvest.AddItem("corn");
+        harvest.AddItem("pumpkin");
+        harvest.AddItem("strawberry");
+
+        IIterator<string> iterator = harvest.CreateIterator();
+
+        Console.WriteLine("harvest on the farm:");
+        while (iterator.HasNext())
+        {
+            Console.WriteLine("- " + iterator.Next());
+        }
         
+        Console.WriteLine("---------- mediator pattern ---------");
+        Farmer1 farmer1 = new Farmer1();
+        Merchant merchant = new Merchant();
+        Blacksmith blacksmith = new Blacksmith();
+
+        TownMediator mediator = new TownMediator(farmer1, merchant, blacksmith);
+
+        // Фермер просить насіння
+        farmer1.AskForSeeds();
+
+        Console.WriteLine();
+
+        // Фермер просить ремонт інструменту
+        farmer1.AskForToolRepair();
+
+        Console.ReadLine();
     }
 }

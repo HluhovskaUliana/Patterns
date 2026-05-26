@@ -3,3 +3,13 @@ D:\Study\Patterns\designPatterns\behavioral\obj\Debug\net10.0\behavioral.Assembl
 D:\Study\Patterns\designPatterns\behavioral\obj\Debug\net10.0\behavioral.AssemblyInfo.cs
 D:\Study\Patterns\designPatterns\behavioral\obj\Debug\net10.0\behavioral.csproj.CoreCompileInputs.cache
 D:\Study\Patterns\designPatterns\behavioral\obj\Debug\net10.0\behavioral.sourcelink.json
+D:\Study\Patterns\designPatterns\behavioral\bin\Debug\net10.0\behavioral.exe
+D:\Study\Patterns\designPatterns\behavioral\bin\Debug\net10.0\behavioral.deps.json
+D:\Study\Patterns\designPatterns\behavioral\bin\Debug\net10.0\behavioral.runtimeconfig.json
+D:\Study\Patterns\designPatterns\behavioral\bin\Debug\net10.0\behavioral.dll
+D:\Study\Patterns\designPatterns\behavioral\bin\Debug\net10.0\behavioral.pdb
+D:\Study\Patterns\designPatterns\behavioral\obj\Debug\net10.0\behavioral.dll
+D:\Study\Patterns\designPatterns\behavioral\obj\Debug\net10.0\refint\behavioral.dll
+D:\Study\Patterns\designPatterns\behavioral\obj\Debug\net10.0\behavioral.pdb
+D:\Study\Patterns\designPatterns\behavioral\obj\Debug\net10.0\behavioral.genruntimeconfig.cache
+D:\Study\Patterns\designPatterns\behavioral\obj\Debug\net10.0\ref\behavioral.dll
