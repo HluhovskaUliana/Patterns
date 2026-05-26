@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\Patterns\\designPatterns\\Lab5Lambda\\Lab5Lambda.csproj",
-      "projectName": "Lab5Lambda",
-      "projectPath": "D:\\Study\\Patterns\\designPatterns\\Lab5Lambda\\Lab5Lambda.csproj",
+      "projectUniqueName": "D:\\Study\\Patterns\\designPatterns\\Lab4Lambda\\Lab4Lambda.csproj",
+      "projectName": "Lab4Lambda",
+      "projectPath": "D:\\Study\\Patterns\\designPatterns\\Lab4Lambda\\Lab4Lambda.csproj",
       "packagesPath": "C:\\Users\\Уляна\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\Patterns\\designPatterns\\Lab5Lambda\\obj\\",
+      "outputPath": "D:\\Study\\Patterns\\designPatterns\\Lab4Lambda\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
