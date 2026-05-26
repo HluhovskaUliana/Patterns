@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "creational", "creational\cr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "structural", "structural\structural.csproj", "{4C67DB65-5FD2-4CD6-8BED-F0782803AD41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "behavioral", "behavioral\behavioral.csproj", "{D3A60091-C579-41D7-BF7A-8DAEA912E8B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "behavioral", "behavioral\behavioral.csproj", "{847A8F51-C409-44D6-A04A-150E5F6D12BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{4C67DB65-5FD2-4CD6-8BED-F0782803AD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C67DB65-5FD2-4CD6-8BED-F0782803AD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C67DB65-5FD2-4CD6-8BED-F0782803AD41}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3A60091-C579-41D7-BF7A-8DAEA912E8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3A60091-C579-41D7-BF7A-8DAEA912E8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3A60091-C579-41D7-BF7A-8DAEA912E8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3A60091-C579-41D7-BF7A-8DAEA912E8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847A8F51-C409-44D6-A04A-150E5F6D12BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847A8F51-C409-44D6-A04A-150E5F6D12BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847A8F51-C409-44D6-A04A-150E5F6D12BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847A8F51-C409-44D6-A04A-150E5F6D12BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
